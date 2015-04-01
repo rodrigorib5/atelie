@@ -1258,3 +1258,14 @@
   	text-align: center;
   	margin-top: 15px;
 }
+
+.price-menu{
+	background: rgb(243, 162, 152);
+  	color: #fff;
+  	min-width: 41px;
+  	height: 38px;
+  	border-radius: 4px;
+  	font: 35px/36px 'Lobster';
+  	text-align: center;
+  	margin-top: 15px;
+}
