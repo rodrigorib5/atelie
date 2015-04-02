@@ -739,7 +739,7 @@
 
 		#header h1
 		{
-			color: #fff;
+			color: #3D0303;
 			font-size: 3em;
 			line-height: 1em;
 		}
@@ -1230,11 +1230,11 @@
 
 #logo > .logo-container {
 	padding: 60px;
-	background: rgba( 0, 0, 0, 0.2 );
+	background: rgba( 255, 255, 255, 0.4 );
 }
 #logo a {
-	font-family: 'Great Vibes', cursive;
-	font-size: 135px;
+	font-family: 'Great Vibes';
+	font-size: 80px;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
 	color: #ee8275;
 	text-decoration: none;
@@ -1242,9 +1242,9 @@
 }
 .logo-btn-click {
 	padding-top: 0 !important;
-	font-family: Lobster;
+	font-family: 'Lobster';
 	border-radius: 0 0 50% 50% !important;
-	background: rgba( 0, 0, 0, 0.2 );
+	background: rgba( 238, 130, 117, 0.4 );
 }
 
 .price{
