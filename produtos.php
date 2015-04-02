@@ -6,44 +6,36 @@
 -->
 <html>
 <head>
-		<title>Ateliê dos Salgados</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.onvisible.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
+	<title>Ateliê dos Salgados</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.dropotron.min.js"></script>
+	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/jquery.onvisible.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-desktop.css" />
+		<link rel="stylesheet" href="css/style-noscript.css" />
+	</noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+</head>
 <body class="left-sidebar">
 	<!-- Header -->
 	<div id="header" style="background-image: url('/atelie/images/header.jpg');">
 		<!-- Inner -->
 		<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="menu.html">Menu</a></li>
-						</ul>
-					</nav>
+		<nav id="nav">
+		  <?php include('menu.php'); ?>
+		</nav>
 		<div class="inner">
-			<div id="logo">
-				<h1 class="logo-container">
-					<a href="index.html" >Ateliê dos Salgados</a>
-				</h1>
-			</div>
-
+			<?php include('logo.php'); ?>
 		</div>
 	</div>
 	<!-- Main -->
@@ -153,8 +145,8 @@
 										R$ 47 o Cento
 									</div>
 									<p>
-										Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-										porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+										
+										
 									</p>
 								</article>
 								<article class="4u special">
@@ -166,21 +158,21 @@
 										R$ 42 o Cento
 									</div>
 									<p>
-										Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-										porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+										
+										
 									</p>
 								</article>
 								<article class="4u special">
 									<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 									<header>
-										<h3><a href="#">Bolinha de queijo</a></h3>
+										<h3><a href="#">Bolinha de queijo  </a></h3>
 									</header>
 									<div class="price-menu">
 										R$ 37 o Cento
 									</div>
 									<p>
-										Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-										porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+										
+										
 									</p>
 								</article>
 							</div>
@@ -190,70 +182,6 @@
 			</div>
 		</div>
 	</div>
-
-		<div id="footer">
-				<div class="container">
-					<header>
-					<h2>Perguntas ou sugestões? / Encomende seu produto aqui :</h2>
-					<h2>Se preferir, nos ligue <li class="fa fa-phone">(44) 9101-6562 (44) 3024-9298</li></h2>
-					</header>
-					<div class="">
-						<section>
-							<form method="POST" action="envia.php">
-								<div class="row half">
-									<div class="6u">
-										<input name="nomeremetente" placeholder="Nome" type="text"
-											class="text" required />
-									</div>
-									<div class="6u">
-										<input name="emailremetente" placeholder="Email" type="email"
-											class="text" required />
-									</div>
-								</div>
-								<div class="row half">
-									<div class="12u">
-										<textarea name="mensagem" placeholder="Mensagem" type="text"
-											class="text" required></textarea>
-									</div>
-								</div>
-								<div class="row half">
-									<div class="12u">
-										<input type="submit" name="enviar" value="Enviar Mensagem"
-											class="button button-icon fa fa-envelope">
-									</div>
-								</div>
-							</form>
-						</section>
-					</div>
-					<div class="row">
-						<div class="12u">
-
-						<!-- Contact -->
-						<section class="contact">
-							<header>
-								<h3>Quer ser o primeiro a saber das novidades ?</h3>
-							</header>
-							<p>Clique nos links abaixo e nos siga !</p>
-							<ul class="icons">
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-							</ul>
-						</section>
-
-						<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<br>
-								<li class="fa fa-home">Rua Monte Carlo - Maringá-PR</li>
-								<li class="fa fa-phone">(44) 9101-6562 (44) 3024-9298</li>
-								<li class="fa fa-envelope"><a
-								href="mailto:contato@ateliesalgados.com.br">contato@ateliesalgados.com.br</a></li>
-							</ul>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	</body>
+	<?php include('footer.php'); ?>
+</body>
 </html>

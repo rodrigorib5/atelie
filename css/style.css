@@ -739,7 +739,7 @@
 
 		#header h1
 		{
-			color: #3D0303;
+			color: #FFF;
 			font-size: 3em;
 			line-height: 1em;
 		}
@@ -1230,13 +1230,13 @@
 
 #logo > .logo-container {
 	padding: 60px;
-	background: rgba( 255, 255, 255, 0.4 );
+	background: rgba( 0, 0, 0, 0.4 );
 }
 #logo a {
 	font-family: 'Great Vibes';
 	font-size: 80px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
-	color: #ee8275;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, .4);
+	color: #FFF;
 	text-decoration: none;
 	line-height: 90px;
 }
