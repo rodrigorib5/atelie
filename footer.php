@@ -1,7 +1,7 @@
 <div id="footer">
 	<div class="container">
 		<header>
-		<h2>Perguntas ou sugestões? / Encomende seu produto aqui :</h2>
+		<h2>Perguntas ou sugestões? / Encomende aqui:</h2>
 		<h3>Se preferir, nos ligue: <li class="fa fa-phone">(44) 9101-6562 (44) 3024-9298</li></h3>
 		</header>
 		<div class="">

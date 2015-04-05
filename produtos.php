@@ -47,89 +47,30 @@
 					<section>
 						<header>
 							<h3>
-								<a href="#">Accumsan sed penatibus</a>
+								<a href="#">Um Pouco de Nós</a>
 							</h3>
 						</header>
 							<p>
-								Dolor sed fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
-								porttitor phasellus tempus cubilia ultrices tempor sagittis  tellus ante diam nec penatibus dolor cras
-								magna tempus feugiat veroeros.
+								Do tradicional sabor, ao mais complexo, os produtos do <span id="logo">Ateliê dos Salgados</span>
+								nos impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.
 							</p>
 							<footer>
-								<a href="#" class="button">Learn More</a>
+								<a href="#" class="button">Quem Somos</a>
 							</footer>
 					</section>
 						<hr />
-					<section>
-						<header>
-							<h3>
-								<a href="#">Sed lorem etiam consequat</a>
-							</h3>
-						</header>
-							<p>
-								Tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
-							</p>
-						<div class="row 50% no-collapse">
-							<div class="4u">
-								<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-							</div>
-							<div class="8u">
-								<h4>Salgados Fritos</h4>
-									<p>
-										Amet nullam fringilla nibh nulla convallis tique ante proin.
-									</p>
-							</div>
-						</div>
-						<div class="row 50% no-collapse">
-							<div class="4u">
-								<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-							</div>
-							<div class="8u">
-								<h4>Salgados Assados</h4>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin.
-								</p>
-							</div>
-						</div>
-						<div class="row 50% no-collapse">
-							<div class="4u">
-								<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
-							</div>
-							<div class="8u">
-								<h4>Mini Pizzas</h4>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin.
-								</p>
-							</div>
-						</div>
-						<div class="row 50% no-collapse">
-							<div class="4u">
-								<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
-							</div>
-							<div class="8u">
-								<h4>Doces</h4>
-								<p>
-									Amet nullam fringilla nibh nulla convallis tique ante proin.
-								</p>
-							</div>
-						</div>
-					<!-- 	<footer>
-							<a href="#" class="button">Todos os Produtos</a>
-						</footer> -->
-					</section>
+					<!-- Menu Lateral -->
+					<?php include('menu-lateral.php'); ?>
+					<!-- fim Menu Lateral -->
 				</div>
 				<div class="8u important(collapse)" id="content">
 					<article id="main">
 						<header>
-							<h2><a href="#">Left Sidebar</a></h2>
-							<p>
-								Morbi convallis lectus malesuada sed fermentum dolore amet
-							</p>
+							<h2><a href="#">Salgados e Doces !</a></h2>
 						</header>
-						<a href="#" class="image featured"><img src="images/salgado.jpg" alt="" /></a>
+						<a href="#" class="image featured"><img src="images/salgado.jpg" alt="produtos" /></a>
 						<p>
-							Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
-							posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
+							Salgados e Doces, preparados com carinho e por quem sabe.
 						</p>
 						<section>
 							<header>
@@ -145,8 +86,7 @@
 										R$ 47 o Cento
 									</div>
 									<p>
-										
-										
+
 									</p>
 								</article>
 								<article class="4u special">
@@ -157,22 +97,20 @@
 									<div class="price-menu">
 										R$ 42 o Cento
 									</div>
-									<p>
-										
-										
-									</p>
+									<!-- <p>
+										Salgados e Doces, preparados com carinho e por quem sabe.
+									</p> -->
 								</article>
 								<article class="4u special">
 									<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
 									<header>
-										<h3><a href="#">Bolinha de queijo  </a></h3>
+										<h3><a href="#">Bolinha de queijo</a></h3>
 									</header>
 									<div class="price-menu">
 										R$ 37 o Cento
 									</div>
 									<p>
-										
-										
+
 									</p>
 								</article>
 							</div>
