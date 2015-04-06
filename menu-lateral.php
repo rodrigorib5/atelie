@@ -25,7 +25,7 @@
         <div class="8u">
             <h4>Salgados Assados</h4>
             <p>
-                Excelente, divinos, todos vão adorar.
+                Uma opção mais saudável, e ainda sim saborosa.
             </p>
         </div>
     </div>
@@ -58,7 +58,7 @@
         <div class="8u">
             <h4>Doces</h4>
             <p>
-                Do tradicional brigadeiro às sobremesas mais requintadas.
+                Do tradicional brigadeiro à Cupcakes.
             </p>
         </div>
     </div>

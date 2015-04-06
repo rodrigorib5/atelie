@@ -51,7 +51,7 @@
 							</h3>
 						</header>
 							<p>
-								Do tradicional sabor, ao mais complexo, os produtos do <span id="logo">Ateliê dos Salgados</span>
+								Do tradicional sabor, ao mais refinado, os produtos do <span id="logo">Ateliê dos Salgados</span>
 								nos impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.
 							</p>
 							<footer>
@@ -70,7 +70,7 @@
 						</header>
 						<a href="#" class="image featured"><img src="images/salgado.jpg" alt="produtos" /></a>
 						<p>
-							Salgados e Doces, preparados com carinho e por quem sabe.
+							Salgados e Doces, preparados com o verdadeiro sabor caseiro.
 						</p>
 						<section>
 							<header>

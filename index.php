@@ -34,13 +34,11 @@
 						thumb_links     : 1, // Individual thumb links for each slide
 						thumbnail_navigation : 0, // Thumbnail navigation
 						slides          :[ // Slideshow Images
-														{image : 'images/image01.jpg', title : 'Image Credit: Maria Kazvan'},
-														{image : 'images/image02.jpg', title : 'Image Credit: Maria Kazvan'},
-														{image : 'images/image03.jpg', title : 'Image Credit: Maria Kazvan'},
-														{image : 'images/image04.jpg', title : 'Image Credit: Maria Kazvan'},
-														{image : 'images/image05.jpg', title : 'Image Credit: Maria Kazvan'},
-														{image : 'images/image06.jpg', title : 'Image Credit: Maria Kazvan'},
-												],
+										{image : 'images/image01.jpg', title : 'Image Credit: Maria Kazvan'},
+										{image : 'images/image02.jpg', title : 'Image Credit: Maria Kazvan'},
+										{image : 'images/image03.jpg', title : 'Image Credit: Maria Kazvan'},
+										{image : 'images/image04.jpg', title : 'Image Credit: Maria Kazvan'},
+									],
 
 						// Theme Options
 						progress_bar    : 1, // Timer for each slide
@@ -95,7 +93,7 @@
 									<h3><a href="#">Empadas</a></h3>
 								</header>
 								<div class="price">
-									R$ 2 a Un.
+									R$ 2 a Unid.
 								</div>
 								<p>Nos sabores, Frango, Palmito, Carne seca.</p>
 						</article>
@@ -106,7 +104,7 @@
 									<h3><a href="#">Baguetes</a></h3>
 								</header>
 								<div class="price">
-										R$ 22 a Uni.
+										R$ 22 a Unid.
 								</div>
 								<p>Nos sabores de Atum e Salame. Entre outros.<p>
 						</article>
