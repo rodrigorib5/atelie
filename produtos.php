@@ -68,7 +68,7 @@
 						<header>
 							<h2><a href="#">Salgados e Doces !</a></h2>
 						</header>
-						<a href="#" class="image featured"><img src="images/salgado.jpg" alt="produtos" /></a>
+						<a href="#" class="image featured"><img src="images/produtos.jpg" alt="produtos" /></a>
 						<p>
 							Salgados e Doces, preparados com o verdadeiro sabor caseiro.
 						</p>
@@ -78,9 +78,9 @@
 							</header>
 							<div class="row">
 								<article class="4u special">
-									<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+									<a href="salgados-fritos.php" class="image featured"><img src="images/pastel.jpg" alt="" /></a>
 									<header>
-										<h3><a href="#">Pastel de carne seca e palmito</a></h3>
+										<h3><a href="salgados-fritos.php">Pastel de carne seca e palmito</a></h3>
 									</header>
 									<div class="price-menu">
 										R$ 47 o Cento
@@ -90,9 +90,9 @@
 									</p>
 								</article>
 								<article class="4u special">
-									<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+									<a href="salgados-assados.php" class="image featured"><img src="images/paoBatata.jpg" alt="" /></a>
 									<header>
-										<h3><a href="#">Pão de Batata com requeijão</a></h3>
+										<h3><a href="salgados-assados.php">Pão de Batata com requeijão</a></h3>
 									</header>
 									<div class="price-menu">
 										R$ 42 o Cento
@@ -102,9 +102,9 @@
 									</p> -->
 								</article>
 								<article class="4u special">
-									<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+									<a href="salgados-fritos.php" class="image featured"><img src="images/bolinhaQueijo.jpg" alt="" /></a>
 									<header>
-										<h3><a href="#">Bolinha de queijo</a></h3>
+										<h3><a href="salgados-fritos.php">Bolinha de queijo</a></h3>
 									</header>
 									<div class="price-menu">
 										R$ 37 o Cento

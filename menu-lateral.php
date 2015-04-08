@@ -9,7 +9,7 @@
         </p> -->
     <div class="row 50% no-collapse">
         <div class="4u">
-            <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+            <a href="salgados-fritos.php" class="image fit"><img src="images/salgadosFritos.jpg" alt="" /></a>
         </div>
         <div class="8u">
             <h4>Salgados Fritos</h4>
@@ -20,7 +20,7 @@
     </div>
     <div class="row 50% no-collapse">
         <div class="4u">
-            <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+            <a href="salgados-assados.php" class="image fit"><img src="images/salgadosAssados.jpg" alt="" /></a>
         </div>
         <div class="8u">
             <h4>Salgados Assados</h4>
@@ -31,7 +31,18 @@
     </div>
     <div class="row 50% no-collapse">
         <div class="4u">
-            <a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+            <a href="pasteis.php" class="image fit"><img src="images/pasteis.jpg" alt="" /></a>
+        </div>
+        <div class="8u">
+            <h4>Pastéis</h4>
+            <p>
+                Massa crocante e bem quentinho.
+            </p>
+        </div>
+    </div>
+    <div class="row 50% no-collapse">
+        <div class="4u">
+            <a href="mini-pizzas.php" class="image fit"><img src="images/miniPiazzasMenu.jpg" alt="" /></a>
         </div>
         <div class="8u">
             <h4>Mini Pizzas</h4>
@@ -42,7 +53,7 @@
     </div>
     <div class="row 50% no-collapse">
         <div class="4u">
-            <a href="#" class="image fit"><img src="images/pic16.jpg" alt="" /></a>
+            <a href="baguete.php" class="image fit"><img src="images/bagueteMenu.jpg" alt="" /></a>
         </div>
         <div class="8u">
             <h4>Baguetes</h4>
@@ -53,7 +64,7 @@
     </div>
     <div class="row 50% no-collapse">
         <div class="4u">
-            <a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
+            <a href="doces.php" class="image fit"><img src="images/cupcakesMenu.jpg" alt="" /></a>
         </div>
         <div class="8u">
             <h4>Doces</h4>

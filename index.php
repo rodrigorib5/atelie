@@ -34,10 +34,10 @@
 						thumb_links     : 1, // Individual thumb links for each slide
 						thumbnail_navigation : 0, // Thumbnail navigation
 						slides          :[ // Slideshow Images
-										{image : 'images/image01.jpg', title : 'Image Credit: Maria Kazvan'},
-										{image : 'images/image02.jpg', title : 'Image Credit: Maria Kazvan'},
-										{image : 'images/image03.jpg', title : 'Image Credit: Maria Kazvan'},
-										{image : 'images/image04.jpg', title : 'Image Credit: Maria Kazvan'},
+										{image : 'images/enroladinhos.jpg', title : 'Enroladinhos'},
+										{image : 'images/miniBaguetes.jpg', title : 'Baguetes'},
+										{image : 'images/cupcakes.jpg', title : 'cupcakes'},
+										{image : 'images/barcaBrigadeiro.jpg', title : 'brigadeiro'},
 									],
 
 						// Theme Options
@@ -77,7 +77,7 @@
 				<div class="reel">
 
 						<article>
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="salgados-fritos.php" class="image featured"><img src="images/coxinha.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Coxinha de Frango</a></h3>
 								</header>
@@ -88,7 +88,7 @@
 						</article>
 
 						<article>
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<a href="salgados-assados.php" class="image featured"><img src="images/empada.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Empadas</a></h3>
 								</header>
@@ -99,7 +99,7 @@
 						</article>
 
 						<article>
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<a href="baguetes.php" class="image featured"><img src="images/baguete.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Baguetes</a></h3>
 								</header>
@@ -110,7 +110,7 @@
 						</article>
 
 						<article>
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<a href="mini-pizzas.php" class="image featured"><img src="images/miniPizzas.jpg" alt="" /></a>
 								<header>
 									<h3><a href="#">Mine Pizzas</a></h3>
 								</header>
@@ -121,7 +121,7 @@
 						</article>
 
 						<article>
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<a href="doces.php" class="image featured"><img src="images/brigadeiros.jpg" alt="" /></a>
 								<header>
 										<h3><a href="#">Brigadeiros</a></h3>
 								</header>
