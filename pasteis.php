@@ -66,58 +66,31 @@
                 <div class="8u important(collapse)" id="content">
                     <article id="main">
                         <header>
-                            <h2><a href="#">Salgados Assados !</a></h2>
+                            <h2><a href="#">Pastéis !</a></h2>
                         </header>
                         <section>
                             <div class="row">
                                 <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/enroladinhoSalsicha.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/pastel.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Enroladinho de Salsicha</a></h3>
+                                        <h3><a href="#">Pastel de Carne seca, palmito e requeijão (Massa Podre)</a></h3>
                                     </header>
                                     <div class="price-menu">
-                                        R$ 42 o Cento
-                                    </div>
-                                </article>
-                                <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/esfirraCarne.jpg" alt="" /></a>
-                                    <header>
-                                        <h3><a href="#">Esfirras (Carne, Frango)</a></h3>
-                                    </header>
-                                    <div class="price-menu">
-                                        R$ 42 o Cento
-                                    </div>
-                             </article>
-                                <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/paoBatata.jpg" alt="" /></a>
-                                    <header>
-                                        <h3><a href="#">Pão de batata (Frango com Requeijão e Bacon) (Presunto e queijo) (Calabresa)</a></h3>
-                                    </header>
-                                    <div class="price-menu">
-                                        R$ 42 o Cento
+                                        R$ 47 o Cento
                                     </div>
                                     <p>
 
                                     </p>
                                 </article>
-                             <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/empada.jpg" alt="" /></a>
+                                <article class="4u special">
+                                    <a href="#" class="image featured"><img src="images/pastelFrangoRequeijao.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Empada (Frango, Palmito, Carne seca, Carne)</a></h3>
+                                        <h3><a href="#">Pastel Frango e requeijão (Massa Folhada)</a></h3>
                                     </header>
                                     <div class="price-menu">
-                                        R$ 2 a Unid.
+                                        R$ 50 o Cento
                                     </div>
-                             </article>
-                             <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/empadaCamarao.jpg" alt="" /></a>
-                                    <header>
-                                        <h3><a href="#">Empada (Camarão, bacalhau)</a></h3>
-                                    </header>
-                                    <div class="price-menu">
-                                        R$ 3 a Unid.
-                                    </div>
-                             </article>
+                                </article>                                
                             </div>
                         </section>
                     </article>
