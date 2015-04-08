@@ -12,10 +12,10 @@
 						<li><a href="salgados-assados.php">Assados</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Pastéis</a></li>
-				<li><a href="#">Mini Pizzas</a></li>
-				<li><a href="#">Baguetes</a></li>
-				<li><a href="#">Doces</a></li>
+				<li><a href="pasteis.php">Pastéis</a></li>
+				<li><a href="mini-pizzas.php">Mini Pizzas</a></li>
+				<li><a href="baguetes.php">Baguetes</a></li>
+				<li><a href="doces.php">Doces</a></li>
 			</ul>
 		</li>
 		<li><a href="produtos.php">Sobre Nós</a></li>

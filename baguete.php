@@ -66,40 +66,31 @@
                 <div class="8u important(collapse)" id="content">
                     <article id="main">
                         <header>
-                            <h2><a href="#">Pastéis!</a></h2>
+                            <h2><a href="#">Baguetes!</a></h2>
                         </header>
                         <section>
                             <div class="row">
                                 <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastel.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/baguete.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Pastel<br><span class="produtos">Vento, Carne, Queijo</span></a></h3>
+                                        <h3><a href="#">Baguete (Frango, Presunto)</a></h3>
                                     </header>
                                     <div class="price-menu">
-                                        R$ 37 o Cento
-                                    </div>
-                                </article>
-                                <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastelPodre.jpg" alt="" /></a>
-                                    <header>
-                                        <h3><a href="#">Pastel "Massa Podre"<br><span class="produtos">Carne seca, Palmito e requeijão</span></a></h3>
-                                    </header>
-                                    <div class="price-menu">
-                                        R$ 47 o Cento
+                                        R$ 18 a Unid.
                                     </div>
                                     <p>
 
                                     </p>
                                 </article>
                                 <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastelFolhada.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/bagueteSalame.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Pastel "Massa Folhada"<br><span class="produtos">Frango, Requeijão</span></a></h3>
+                                        <h3><a href="#"><B>Baguete (Atum, Salame)</a></h3>
                                     </header>
                                     <div class="price-menu">
-                                        R$ 50 o Cento
+                                        R$ 22 a Unid.
                                     </div>
-                                </article>                                
+                                </article>  
                             </div>
                         </section>
                     </article>

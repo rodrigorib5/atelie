@@ -31,7 +31,7 @@
     </div>
     <div class="row 50% no-collapse">
         <div class="4u">
-            <a href="pasteis.php" class="image fit"><img src="images/pasteis.jpg" alt="" /></a>
+            <a href="pasteis.php" class="image fit"><img src="images/pastelPodre.jpg" alt="" /></a>
         </div>
         <div class="8u">
             <h4>Pastéis</h4>

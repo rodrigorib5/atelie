@@ -66,14 +66,14 @@
                 <div class="8u important(collapse)" id="content">
                     <article id="main">
                         <header>
-                            <h2><a href="#">Salgados Assados !</a></h2>
+                            <h2><a href="#">Salgados Assados!</a></h2>
                         </header>
                         <section>
                             <div class="row">
                                 <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/enroladinhoSalsicha.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Enroladinho de Salsicha</a></h3>
+                                        <h3><a href="#">Enroladinho<br><span class="produtos">Salsicha</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 42 o Cento
@@ -82,7 +82,7 @@
                                 <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/esfirraCarne.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Esfirras (Carne, Frango)</a></h3>
+                                        <h3><a href="#">Esfirras<br><span class="produtos">Carne, Frango</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 42 o Cento
@@ -91,7 +91,7 @@
                                 <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/paoBatata.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Pão de batata (Frango com Requeijão e Bacon) (Presunto e queijo) (Calabresa)</a></h3>
+                                        <h3><a href="#">Pão de batata<br><span class="produtos">Franco com Requeijão e bacon, Presunto e queijo, Calabresa</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 42 o Cento
@@ -103,7 +103,7 @@
                              <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/empada.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Empada (Frango, Palmito, Carne seca, Carne)</a></h3>
+                                        <h3><a href="#">Empada<br><span class="produtos">Frango, Palmito, Carne seca, Carne</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 2 a Unid.
@@ -112,7 +112,7 @@
                              <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/empadaCamarao.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Empada (Camarão, bacalhau)</a></h3>
+                                        <h3><a href="#">Empada<br><span class="produtos">Camarão, Bacalhau</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 3 a Unid.

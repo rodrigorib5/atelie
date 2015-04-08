@@ -66,40 +66,58 @@
                 <div class="8u important(collapse)" id="content">
                     <article id="main">
                         <header>
-                            <h2><a href="#">Pastéis!</a></h2>
+                            <h2><a href="#">Doces!</a></h2>
                         </header>
                         <section>
                             <div class="row">
                                 <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastel.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/olhoSogra.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Pastel<br><span class="produtos">Vento, Carne, Queijo</span></a></h3>
+                                        <h3><a href="#">Olho de sogra<br><span class="produtos"></span></a></h3>
                                     </header>
                                     <div class="price-menu">
-                                        R$ 37 o Cento
+                                        R$ 40 o Cento
                                     </div>
                                 </article>
                                 <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastelPodre.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/beijinho.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Pastel "Massa Podre"<br><span class="produtos">Carne seca, Palmito e requeijão</span></a></h3>
+                                        <h3><a href="#">Beijinho<br><span class="produtos"></span></a></h3>
                                     </header>
                                     <div class="price-menu">
-                                        R$ 47 o Cento
+                                        R$ 40 o Cento
                                     </div>
                                     <p>
 
                                     </p>
                                 </article>
                                 <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastelFolhada.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/brigadeiros.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Pastel "Massa Folhada"<br><span class="produtos">Frango, Requeijão</span></a></h3>
+                                        <h3><a href="#">Brigadeiro<br><span class="produtos"></span></a></h3>
                                     </header>
                                     <div class="price-menu">
-                                        R$ 50 o Cento
+                                        R$ 40 o Cento
                                     </div>
-                                </article>                                
+                                </article>     
+                                <article class="4u special">
+                                    <a href="#" class="image featured"><img src="images/casadinho.jpg" alt="" /></a>
+                                    <header>
+                                        <h3><a href="#">Casadinho<br><span class="produtos"></span></a></h3>
+                                    </header>
+                                    <div class="price-menu">
+                                        R$ 40 o Cento
+                                    </div>
+                                </article>    
+                                <article class="4u special">
+                                    <a href="#" class="image featured"><img src="images/cajuzinho.jpg" alt="" /></a>
+                                    <header>
+                                        <h3><a href="#">Cajuzinho<br><span class="produtos"></span></a></h3>
+                                    </header>
+                                    <div class="price-menu">
+                                        R$ 40 o Cento
+                                    </div>
+                                </article>                                   
                             </div>
                         </section>
                     </article>

@@ -6,7 +6,7 @@
 		</header>
 		<div class="">
 			<section>
-				<form method="POST" action="envia.php">
+				<form method="post" action="envia.php">
 					<div class="row half">
 						<div class="6u">
 							<input name="nomeremetente" placeholder="Nome" type="text"
@@ -29,6 +29,7 @@
 								class="button button-icon fa fa-envelope">
 						</div>
 					</div>
+					<input type="hidden" name="assunto" value="Contato Ateliê">
 				</form>
 			</section>
 		</div>

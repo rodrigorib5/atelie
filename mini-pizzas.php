@@ -55,7 +55,7 @@
                                 nos impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.
                             </p>
                             <footer>
-                                <a href="#" class="button">Quem Somos</a>
+                                <a href="#" class="button">Mini Pizzas!</a>
                             </footer>
                     </section>
                         <hr />
@@ -71,35 +71,14 @@
                         <section>
                             <div class="row">
                                 <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastel.jpg" alt="" /></a>
+                                    <a href="#" class="image featured"><img src="images/mpPresuntoQueijo.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Pastel<br><span class="produtos">Vento, Carne, Queijo</span></a></h3>
-                                    </header>
-                                    <div class="price-menu">
-                                        R$ 37 o Cento
-                                    </div>
-                                </article>
-                                <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastelPodre.jpg" alt="" /></a>
-                                    <header>
-                                        <h3><a href="#">Pastel "Massa Podre"<br><span class="produtos">Carne seca, Palmito e requeijão</span></a></h3>
-                                    </header>
-                                    <div class="price-menu">
-                                        R$ 47 o Cento
-                                    </div>
-                                    <p>
-
-                                    </p>
-                                </article>
-                                <article class="4u special">
-                                    <a href="#" class="image featured"><img src="images/pastelFolhada.jpg" alt="" /></a>
-                                    <header>
-                                        <h3><a href="#">Pastel "Massa Folhada"<br><span class="produtos">Frango, Requeijão</span></a></h3>
+                                        <h3><a href="#">Mini Pizzas<br><span class="produtos">Presunto e Queijo, Calabresa, Frango, Requeijão, Queijo</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 50 o Cento
                                     </div>
-                                </article>                                
+                                </article>                                           
                             </div>
                         </section>
                     </article>

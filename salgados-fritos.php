@@ -66,14 +66,14 @@
                 <div class="8u important(collapse)" id="content">
                     <article id="main">
                         <header>
-                            <h2><a href="#">Salgados Fritos !</a></h2>
+                            <h2><a href="#">Salgados Fritos!</a></h2>
                         </header>
                         <section>
                             <div class="row">
                                 <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/coxinha.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Coxinha de Frango</a></h3>
+                                        <h3><a href="#">Coxinha <br><span class="produtos">Frango, Carne</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 37 o Cento
@@ -85,7 +85,7 @@
                                 <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/risole.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Risoles ( Carne, presunto, queijo)</a></h3>
+                                        <h3><a href="#">Risoles <br><span class="produtos">Carne, presunto, queijo</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 37 o Cento
@@ -94,7 +94,7 @@
                                 <article class="4u special">
                                     <a href="#" class="image featured"><img src="images/risoleCamarao.jpg" alt="" /></a>
                                     <header>
-                                        <h3><a href="#">Risoles de Camarão - Mais Sabor</a></h3>
+                                        <h3><a href="#">Risoles<br><span class="produtos">Camarão</span></a></h3>
                                     </header>
                                     <div class="price-menu">
                                         R$ 65 o Cento

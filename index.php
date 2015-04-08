@@ -121,6 +121,17 @@
 						</article>
 
 						<article>
+								<a href="pasteis.php" class="image featured"><img src="images/pastelPodre.jpg" alt="" /></a>
+								<header>
+									<h3><a href="#">Pastéis</a></h3>
+								</header>
+								<div class="price">
+									R$ 37 o Cento
+								</div>
+								<p>Pastéis de vários sabores de dar água na boca</p>
+						</article>
+
+						<article>
 								<a href="doces.php" class="image featured"><img src="images/brigadeiros.jpg" alt="" /></a>
 								<header>
 										<h3><a href="#">Brigadeiros</a></h3>
