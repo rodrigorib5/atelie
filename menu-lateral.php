@@ -53,7 +53,7 @@
     </div>
     <div class="row 50% no-collapse">
         <div class="4u">
-            <a href="baguete.php" class="image fit"><img src="images/bagueteMenu.jpg" alt="" /></a>
+            <a href="baguetes.php" class="image fit"><img src="images/bagueteMenu.jpg" alt="" /></a>
         </div>
         <div class="8u">
             <h4>Baguetes</h4>

@@ -63,7 +63,7 @@
 		</div>
 
 		<!-- Banner -->
-		<section id="banner">
+		<section id="banner">w
 			<header>
 				<h2><strong>HUUMMM!!!</strong> Ficou com água na boca ?!</h2>
 				<p>
@@ -75,7 +75,6 @@
 		<!-- Carousel -->
 		<section class="carousel" id="carousel">
 				<div class="reel">
-
 						<article>
 								<a href="salgados-fritos.php" class="image featured"><img src="images/coxinha.jpg" alt="" /></a>
 								<header>
