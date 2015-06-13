@@ -27,3 +27,5 @@ $envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers);
 	echo "<script>alert('Mensagem enviada com sucesso, obrigado!')</script>"; // Página que será redirecionada
  	echo "<script>location.href='produtos.php'</script>";
  }
+
+ 
