@@ -20,6 +20,15 @@ class Site extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->load->model('Produto_model');
+		$query = $this->Produto_model->getTodosProdutos();
+
+		foreach ($query->result() as $row) {
+			if ($row->id_tipoProduto == 7) {
+				print_r($row);
+			}
+		}
+			exit;
 		$this->load->view('pages/landingpage/home');
 	}
 }
