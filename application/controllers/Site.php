@@ -21,12 +21,12 @@ class Site extends CI_Controller {
 	public function index()
 	{
 		$this->load->model('Produto_model');
-		$produtos = $this->Produto_model->getTodosProdutos();
+		$produtos = $this->Produto_model->getTodosProdutosLandingpage();
 
 		foreach ($produtos->result() as $row) {
 			$data['produtos'][] = $row;
 		}
-			
+
 		$this->load->view('pages/landingpage/home', $data);
 	}
 }

@@ -13,4 +13,13 @@ class Produto_model extends CI_Model
 		$query = $this->db->get();
 		return $query;
 	}
+
+	public function getTodosProdutosLandingpage()
+	{
+		$this->db->select('*');
+		$this->db->from('produtoLandingpage');
+
+		$query = $this->db->get();
+		return $query;
+	}
 }
