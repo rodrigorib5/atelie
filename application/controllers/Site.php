@@ -19,14 +19,14 @@ class Site extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
+	{/*
 		$this->load->model('Produto_model');
 		$produtos = $this->Produto_model->getTodosProdutosLandingpage();
 
 		foreach ($produtos->result() as $row) {
 			$data['produtos'][] = $row;
-		}
+		} */
 
-		$this->load->view('pages/landingpage/home', $data);
+		$this->load->view('pages/landingpage/home');
 	}
 }
