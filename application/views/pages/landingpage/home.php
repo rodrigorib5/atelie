@@ -9,18 +9,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Ateliê dos Salgados</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url('public/assets/css/bootstrap.min.css') ?>" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/atelie.css" rel="stylesheet">
+    <link href="<?= base_url('public/assets/css/atelie.css') ?>" rel="stylesheet">
+
+    <!-- Important Owl stylesheet -->
+    <link href="<?= base_url('public/assets/css/owl.carousel.css') ?>"  rel="stylesheet">
+ 
+    <!-- Default Theme -->
+    <link href="<?= base_url('public/assets/css/owl.theme.css') ?>"  rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?= base_url('public/assets/font-awesome/css/font-awesome.min.css') ?>" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +48,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    Ateliê dos Salgados
                 </a>
             </div>
 
@@ -53,7 +60,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">NOSSA HISTÓRIA</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#download">Download</a>
@@ -74,8 +81,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Ateliê dos Salgados</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <h1 class="brand-heading"><img src="<?= base_url('public/images/logo.png') ?>"></h1>
+                        <p class="intro-text"></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -89,10 +96,13 @@
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <h2>Nossa história</h2>
+                <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia, 
+                <span style="font-family: Dancing Script, cursive; font-weight: bold; font-size: 25px;">
+                    Ateliê dos Salgados,
+                </span>
+                traz o tradicional sabor, ao mais refinado, com produtos que 
+                impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.</p>
             </div>
         </div>
     </section>
@@ -144,20 +154,33 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="<?= base_url('public/assets/js/jquery.js') ?>"></script>
+
+    <!-- Include js plugin -->
+    <script src="<?= base_url('public/assets/js/owl.carousel.min.js') ?>"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?= base_url('public/assets/js/bootstrap.min.js') ?>"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <script src="<?= base_url('public/assets/js/jquery.easing.min.js') ?>"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/atelie.js"></script>
+    <script src="<?= base_url('public/assets/js/atelie.js') ?>"></script>
 
 </body>
-
+<script>
+$(document).ready(function() {
+ 
+  $("#owl-example").owlCarousel({
+    paginationSpeed: 600,
+    pagination: false,
+    navigation: false,
+    singleItem: true,
+    slideSpeed: 600,
+    autoPlay: 3000
+  });
+ 
+});
+</script>
 </html>
