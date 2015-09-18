@@ -81,7 +81,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><img src="<?= base_url('public/images/logo.png') ?>"></h1>
+                        <img src="<?= base_url('public/images/logo2.png') ?>" class="img-responsive">
                         <p class="intro-text"></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -97,6 +97,31 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Nossa história</h2>
+                <img src="<?= base_url('public/images/divisorBaixo.png') ?>">
+                <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia, 
+                <span style="font-family: Dancing Script, cursive; font-weight: bold; font-size: 25px;">
+                    Ateliê dos Salgados,
+                </span>
+                traz o tradicional sabor, ao mais refinado, com produtos que 
+                impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.</p>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Propaganda Section -->
+    <section id="propaganda" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Salgados e Doces de Primeira com preços maravilhosos!</h2>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Product Section -->
+    <section id="product" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Alguns Produtos</h2>
                 <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia, 
                 <span style="font-family: Dancing Script, cursive; font-weight: bold; font-size: 25px;">
                     Ateliê dos Salgados,

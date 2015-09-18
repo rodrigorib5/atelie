@@ -183,7 +183,9 @@ a:focus {
         font-size: 26px;
     }
 }
-
+.img-responsive {
+    margin: 0 auto;
+}
 section#about {
     width: 100%;
     background-color: white;
@@ -191,12 +193,29 @@ section#about {
 }
 section#about h2 {
     font-size: 45px;
+    color: black;
 }
 section#about p {
     color: #666666;
     font-family: Arial;
     text-align: justify;
-    font-size: 17px;
+    font-size: 16px;
+}
+
+section#propaganda {
+    width: 100%;
+    background: url(../../images/about.jpg);
+    background-size: cover;
+}
+section#propaganda h2 {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 50px;
+}
+
+section#product {
+    width: 100%;
+    background-color: white;
 }
 
 .btn-circle {
