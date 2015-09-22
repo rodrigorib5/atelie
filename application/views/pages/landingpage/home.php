@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <link rel="shortcut icon" type="image/ico" href="<?= base_url('public/images/favicon.ico')?>"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
 
     <!-- Important Owl stylesheet -->
     <link href="<?= base_url('public/assets/css/owl.carousel.css') ?>"  rel="stylesheet">
- 
+
     <!-- Default Theme -->
     <link href="<?= base_url('public/assets/css/owl.theme.css') ?>"  rel="stylesheet">
 
@@ -48,7 +48,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    Ateliê dos Salgados
+                    <img src="<?= base_url('public/images/logo.png') ?>" class="img-responsive">
                 </a>
             </div>
 
@@ -81,7 +81,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <img src="<?= base_url('public/images/logo2.png') ?>" class="img-responsive">
                         <p class="intro-text"></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -98,15 +97,15 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Nossa história</h2>
                 <img src="<?= base_url('public/images/divisorBaixo.png') ?>">
-                <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia, 
+                <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia,
                 <span style="font-family: Dancing Script, cursive; font-weight: bold; font-size: 25px;">
                     Ateliê dos Salgados,
                 </span>
-                traz o tradicional sabor, ao mais refinado, com produtos que 
+                traz o tradicional sabor, ao mais refinado, com produtos que
                 impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.</p>
             </div>
         </div>
-    </section> 
+    </section>
 
     <!-- Propaganda Section -->
     <section id="propaganda" class="container content-section text-center">
@@ -115,18 +114,18 @@
                 <h2>Salgados e Doces de Primeira com preços maravilhosos!</h2>
             </div>
         </div>
-    </section> 
+    </section>
 
     <!-- Product Section -->
     <section id="product" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Alguns Produtos</h2>
-                <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia, 
+                <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia,
                 <span style="font-family: Dancing Script, cursive; font-weight: bold; font-size: 25px;">
                     Ateliê dos Salgados,
                 </span>
-                traz o tradicional sabor, ao mais refinado, com produtos que 
+                traz o tradicional sabor, ao mais refinado, com produtos que
                 impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.</p>
             </div>
         </div>
@@ -196,7 +195,7 @@
 </body>
 <script>
 $(document).ready(function() {
- 
+
   $("#owl-example").owlCarousel({
     paginationSpeed: 600,
     pagination: false,
@@ -205,7 +204,7 @@ $(document).ready(function() {
     slideSpeed: 600,
     autoPlay: 3000
   });
- 
+
 });
 </script>
 </html>
