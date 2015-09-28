@@ -24,9 +24,9 @@
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <!-- jQuery -->
+    <script src="<?= base_url('public/assets/js/jquery.js') ?>"></script>
     <link rel="stylesheet" href="<?= base_url('public/assets/css/supersized.css') ?>" type="text/css" media="screen" />
     <script type="text/javascript" src="<?= base_url('public/assets/js/jquery.easing.min.js') ?>"></script>
-    <script src="<?= base_url('public/assets/js/jquery.js') ?>"></script>
     <script src="<?= base_url('public/assets/js/supersized.3.2.7.min.js') ?>"></script>
 
 </head>
@@ -99,13 +99,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">NOSSA HISTÓRIA</a>
+                        <a class="page-scroll" href="#about">Nossa História</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#download">Produtos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -120,7 +120,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <p class="intro-text"></p>
+                        <p class="intro-text">
+                        <div id="owl-demo">
+                            <div class="item"><p>Sabores inesquecíveis</p></div>
+                            <div class="item"><p>Ótimos preços e produtos</p></div>
+                            <div class="item"><p>É sabor, é alegria</p></div>
+                        </div>
+                        </p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -150,6 +156,7 @@
     <section id="propaganda" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
+            <img src="<?= base_url('public/images/divisorCima.png') ?>">
                 <h2>Salgados e Doces de Primeira com preços maravilhosos!</h2>
             </div>
         </div>
@@ -158,16 +165,138 @@
     <!-- Product Section -->
     <section id="product" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Alguns Produtos</h2>
-                <p>Com mais de duas décadas de experiência unidas com a graduação na área de Gastronomia,
-                <span style="font-family: Dancing Script, cursive; font-weight: bold; font-size: 25px;">
-                    Ateliê dos Salgados,
-                </span>
-                traz o tradicional sabor, ao mais refinado, com produtos que
-                impressionam tanto pelo aroma, como pela textura e sabor. Feitos carinhosamente à partir de receitas campeãs.</p>
+
+                <div class="col-sm-6">
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Wild Mushroom Bucatini with Kale</h4>
+                                <div class="menu-detail">Mushroom / Veggie / White Sources</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$10.5</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Lemon and Garlic Green Beans</h4>
+                                <div class="menu-detail">Lemon / Garlic / Beans</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$14.5</h4>
+                                <div class="menu-label">New</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">LambBeef Kofka Skewers with Tzatziki</h4>
+                                <div class="menu-detail">Lamb / Wine / Butter</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$18.5</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Imported Oysters Grill (5 Pieces)</h4>
+                                <div class="menu-detail">Oysters / Veggie / Ginger</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$15.9</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Meatloaf with Black Pepper-Honey BBQ</h4>
+                                <div class="menu-detail">Pepper / Chicken / Honey</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$16.4</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- .col-sm-6 -->
+
+                <div class="col-sm-6">
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Wild Mushroom Bucatini with Kale</h4>
+                                <div class="menu-detail">Mushroom / Veggie / White Sources</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$14.5</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Lemon and Garlic Green Beans</h4>
+                                <div class="menu-detail">Lemon / Garlic / Beans</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$14.5</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">LambBeef Kofka Skewers with Tzatziki</h4>
+                                <div class="menu-detail">Lamb / Wine / Butter</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$18.5</h4>
+                                <div class="menu-label">Recommended</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Imported Oysters Grill (5 Pieces)</h4>
+                                <div class="menu-detail">Oysters / Veggie / Ginger</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$15.9</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h4 class="menu-title">Meatloaf with Black Pepper-Honey BBQ</h4>
+                                <div class="menu-detail">Pepper / Chicken / Honey</div>
+                            </div>
+                            <div class="col-sm-4 menu-price-detail">
+                                <h4 class="menu-price">$16.4</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- .col-sm-6 -->
+
             </div>
-        </div>
     </section>
 
     <!-- Download Section -->
@@ -221,6 +350,16 @@
     <script src="<?= base_url('public/assets/js/jquery.easing.min.js') ?>"></script>
     <!-- Custom Theme JavaScript -->
     <script src="<?= base_url('public/assets/js/atelie.js') ?>"></script>
-
+<script>
+$(document).ready(function() {
+ 
+    $("#owl-demo").owlCarousel({
+        singleItem  : true,
+        autoPlay    : 3000,
+        scrollPerPage: false
+    });
+ 
+});
+</script>
 </body>
 </html>

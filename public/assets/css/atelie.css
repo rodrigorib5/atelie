@@ -225,7 +225,7 @@ section#product {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 150px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
@@ -418,4 +418,39 @@ body {
 
 #supersized {
     opacity:0.6;
+}
+
+#owl-demo{
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 50px;
+}
+
+#owl-demo p{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.owl-pagination{
+    display: none;
+}
+
+.menu-title {
+    color: black;
+    margin-bottom: 0px;
+}
+
+.menu-detail {
+    color: black;
+}
+
+.menu-price {
+    color: black;
+}
+
+.menu {
+        border-bottom: 1px dotted #DDD;
+    padding: 0 0 10px;
+    margin: 0 0 20px;
 }
